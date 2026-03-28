@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<package schemaVersion="1.2" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PACK.xsd">
+	
+  
+	<vendor>Renesas</vendor>
+	
+  
+	<name>Synergy_touch_panel_chip_sx8654</name>
+	
+  
+	<description>CMSIS Pack for Renesas Synergy Software Package (SSP)</description>
+	
+  
+	<url>www.renesas.com</url>
+	
+  
+	<supportContact/>
+	
+  
+	<!-- optional license file -->
+	
+  
+	<!-- 
+  <license>
+  </license>
+  -->
+	
+  
+  
+	<releases>
+		
+    
+		<release version="2.7.0">
+      Enter release comments here
+    </release>
+		
+  
+	</releases>
+	
+
+  
+	<keywords>
+		
+    
+		<!-- keywords for indexing -->
+		
+    
+		<keyword>insert_keyword_for_search_engines</keyword>
+		
+  
+	</keywords>
+	
+
+  
+	<!-- boards section (mandatory for Board Support Packs) -->
+	
+  
+	<!-- 
+  <boards>
+  </boards>
+  -->
+	
+
+  
+	<!-- devices section (mandatory for Device Family Packs) -->
+	
+  
+	<!--
+  <devices>
+  </devices>
+  -->
+	
+
+  
+	<!-- examples section (optional for all Software Packs)-->
+	
+  
+	<!--
+  <examples>
+  </examples>
+  -->
+	
+  
+  
+	<!-- conditions section (optional for all Software Packs)-->
+	
+  
+	<!-- component section -->
+	
+  
+	<components>
+		
+  
+		<component Cclass="HAL Drivers" Cgroup="touch panel" Csub="touch_panel_chip_sx8654" Cvendor="Renesas" Cversion="2.7.0" condition="">
+			<description>TOUCH_PANEL_CHIP_SX8654 Drivers</description>
+			<files>
+				<file category="include" name="synergy/ssp_supplemental/inc/framework/instances"/>
+				<file category="header" condition="" name="synergy/ssp_supplemental/inc/framework/instances/sf_touch_panel_chip_sx8654.h" select="" version="2.7.0"/>
+				<file category="source" condition="" name="synergy/ssp_supplemental/touch_drivers/touch_panel_chip_sx8654/sf_touch_panel_chip_sx8654.c" select="" version="2.7.0"/>
+			</files>
+		</component>
+	</components>
+	
+  
+	<!-- optional taxonomy section for defining new component Class and Group names -->
+	
+  
+	<!--
+  <taxonomy>
+  </taxonomy>
+  -->
+	
+
+</package>
