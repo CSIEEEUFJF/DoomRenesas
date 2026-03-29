@@ -1,6 +1,7 @@
-﻿# DoomRenesas
+﻿# Port de Doom para uma plataforma de microcontrolador Renesas Synergy
+English version available at `[README_EN](./README_EN.md)`.  
 
-`DoomRenesas` é um port de `doomgeneric` para a placa `Renesas Synergy S7G2 Starter Kit (SK-S7G2)`. O objetivo do projeto é executar Doom usando o display TFT integrado da placa, sem SDRAM externa, com o `doom1.wad` embutido em flash QSPI e com um backend próprio para vídeo, touch e diagnóstico.
+Este projeto é um port de [Doom](https://en.wikipedia.org/wiki/Doom_(1993_video_game)) para o microcontrolador Renesas Synergy S7G2. O objetivo do projeto é executar Doom usando o display TFT integrado da placa, sem SDRAM externa, com o arquivo principal do jogo embutido em flash QSPI e com um backend próprio para vídeo, touch e diagnóstico.
 
 O projeto foi ajustado para o perfil real da placa: pouca RAM interna, display controlado por `GLCDC + ILI9341`, inicialização via `ThreadX` e integração direta com os arquivos gerados pelo ecossistema Synergy.
 
@@ -11,11 +12,6 @@ O projeto foi ajustado para o perfil real da placa: pouca RAM interna, display c
 - [Touch, botões e entrada](./README_touch.md)
 - [Build, gravação e depuração](./README_build.md)
 - [Memória e restrições embarcadas](./README_memory.md)
-- [Project overview in English](./README.en.md)
-- [Display path in English](./README_display.en.md)
-- [Touch and input in English](./README_touch.en.md)
-- [Build, flash, and debug in English](./README_build.en.md)
-- [Memory and constraints in English](./README_memory.en.md)
 
 ## Objetivos do port
 
