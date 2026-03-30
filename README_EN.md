@@ -1,5 +1,4 @@
 # Doom port for a Renesas Synergy microcontroller platform
-English version based on the original Portuguese documentation.
 
 This project is a port of [Doom](https://en.wikipedia.org/wiki/Doom_(1993_video_game)) to the Renesas Synergy S7G2 microcontroller. The goal is to run Doom on the board's integrated TFT display, without external SDRAM, with the main game file embedded in QSPI flash, and with a custom backend for video, touch, and diagnostics.
 
